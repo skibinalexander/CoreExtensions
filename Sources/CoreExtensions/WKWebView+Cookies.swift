@@ -5,6 +5,8 @@
 //  Created by Скибин Александр on 06.08.2021.
 //
 
+#if !os(macOS)
+
 import WebKit
 
 extension WKWebView {
@@ -26,3 +28,5 @@ extension WKWebView {
     }
     
 }
+
+#endif

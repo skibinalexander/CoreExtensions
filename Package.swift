@@ -7,10 +7,9 @@ let package = Package(
     name: "CoreExtensions",
     platforms: [.iOS(.v12)],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "CoreExtensions",
-            targets: ["CoreExtensions"]),
+            targets: ["CoreExtensions"])
     ],
     dependencies: [],
     targets: [

@@ -6,6 +6,8 @@
 //  Copyright © 2020 VTB. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 public protocol NibLoadable { }
@@ -27,3 +29,5 @@ public extension NibLoadable where Self: UIView {
         fatalError("\(self) not found")
     }
 }
+
+#endif

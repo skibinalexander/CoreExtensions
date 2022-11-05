@@ -6,6 +6,7 @@
 //  Copyright © 2020 Skibin Development. All rights reserved.
 //
 
+#if !os(macOS)
 import UIKit
 
 public struct KeyboardUpdate {
@@ -72,3 +73,4 @@ extension UIViewController {
     }
     
 }
+#endif

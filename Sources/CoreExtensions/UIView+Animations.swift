@@ -6,6 +6,8 @@
 //  Copyright © 2020 Skibin Development. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 extension UIView {
@@ -22,3 +24,5 @@ extension UIView {
     }
     
 }
+
+#endif

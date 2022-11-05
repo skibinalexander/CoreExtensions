@@ -5,6 +5,8 @@
 //  Created by Скибин Александр on 18.05.2021.
 //
 
+#if !os(macOS)
+
 import Foundation
 
 extension Date {
@@ -32,3 +34,5 @@ extension Date {
     }()
     
 }
+
+#endif

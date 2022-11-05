@@ -5,6 +5,8 @@
 //  Created by Скибин Александр on 27.04.2021.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 /// This protocol only aggregates the needed properties for the extensions to work and avoid duplicated code.
@@ -29,3 +31,5 @@ public extension Reusable {
     }
     
 }
+
+#endif

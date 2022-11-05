@@ -5,6 +5,8 @@
 //  Created by Скибин Александр on 21.06.2021.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 extension UILabel {
@@ -22,3 +24,5 @@ extension UILabel {
     }
     
 }
+
+#endif

@@ -6,6 +6,8 @@
 //  Copyright © 2020 Skibin Development. All rights reserved.
 //
 
+#if !os(macOS)
+
 import UIKit
 
 /// Хелпер для реализации offsets по высоте при появлении клавиатуры
@@ -68,3 +70,5 @@ extension UIScrollView {
     }
     
 }
+
+#endif
