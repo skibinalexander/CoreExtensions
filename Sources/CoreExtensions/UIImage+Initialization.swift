@@ -49,7 +49,7 @@ extension UIImage {
 
 extension UIImage {
     
-    class func initFrom(color: UIColor) throws -> UIImage {
+    class public func initFrom(color: UIColor) throws -> UIImage {
         let rect: CGRect = CGRect(x: 0, y: 0, width: 1, height: 1)
         UIGraphicsBeginImageContextWithOptions(CGSize(width: 1, height: 1), false, 0)
         color.setFill()
