@@ -1,3 +1,3 @@
 # CoreExtensions
 
-A description of this package.
+Usefull extensions for all cases standart library
